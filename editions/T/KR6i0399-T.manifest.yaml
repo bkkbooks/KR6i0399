@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0399/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0399/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說出家功德經
+  identifiers:
+    krp: KR6i0399
+    cbeta: T16n0707
+    cbeta_old_id: T16n0707
+    authorityid: CA0000494
+    json_key: T0707
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0707.xml
+    old_id: T16n0707
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0399_000-T.yaml, hash: 'sha256:4aa8bfceb418707379e8cbfbe6f57824e7d7c5e3d50f72368131e4ad001c37ec'}
+  - {seq: 1, filename: KR6i0399_001-T.yaml, hash: 'sha256:9f17bbe4472dfeed5722d67c6520982306e4879eb40dbf11011552940f94aa67'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0399_000-T.markers.yaml, hash: 'sha256:10303d0f5ec8853664fd408a1d44962a7c188f26ad262637dac9c5ef554fe66d'}
+  - {seq: 1, role: markers, filename: assets/KR6i0399_001-T.markers.yaml, hash: 'sha256:fbcb024525e63d03cb8b5cb2c7601a12e6367d99472c1b52a23c7445e356b716'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0399_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2151
+  label: 佛說出家功德經
+  type: juan
+  level: 1
+hash: sha256:13feb9ad224fb6537c3581f10efd8ab207114353557b6428cdef59ae57a1424e
